@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Sync
+      - name: Sync LeetCode
         uses: joshcai/leetcode-sync@master
         with:
           github-token: ${{ github.token }}
